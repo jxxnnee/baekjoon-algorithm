@@ -12,6 +12,7 @@ let count: Int = Int(readLine()!)!
 var storage: [Int: [Int]] = [:]
 
 func fibonacci(_ n: Int) -> [Int] {
+    // 한 번 구했던 값이 있으면 바로 리턴.
     if let value = storage[n] {
         return value
     } else
@@ -23,6 +24,9 @@ func fibonacci(_ n: Int) -> [Int] {
     } else {
         let first = fibonacci(n-1)
         let second = fibonacci(n-2)
+        // 새로 구한 값을 저장한다.
+        // [0] = 0의 갯수
+        // [1] = 1의 갯수
         storage[n] = [first[0] + second[0], first[1] + second[1]]
         return [first[0] + second[0], first[1] + second[1]]
     }
