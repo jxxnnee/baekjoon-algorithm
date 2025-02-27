@@ -12,3 +12,5 @@
 |1001|[A-B](https://www.acmicpc.net/problem/1001)|[A-B.swift](Solutions/A-B.swift)|
 |1002|[터렛](https://www.acmicpc.net/problem/1002)|[Turret.swift](Solutions/Turret.swift)|
 |1003|[피보나치 함수](https://www.acmicpc.net/problem/1003)|[Fibonacci.swift](Solutions/Fibonacci.swift)|
+|1004|[어린 왕자](https://www.acmicpc.net/problem/1004)|[LittlePrice.swift](Solutions/LittlePrice.swift)|
+|1005|[ACM Craft](https://www.acmicpc.net/problem/1005)|[ACM_Craft.swift](Solutions/ACM_Craft.swift)|
